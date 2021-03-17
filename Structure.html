@@ -13,6 +13,15 @@
 					<br>
 				</div> 
 				<div class = 'form-group'> 
+					<label for="phone">Enter your phone number:</label>
+
+					<input type="tel" id="phone" name="phone"
+       pattern="[0-9]{2}-9[0-9]{4}-[0-9]{4}"
+       required>
+
+					<small>Format: xx-xxxx-xxxx</small>
+				</div>
+				<div class = 'form-group'> 
 					<label id = 'name-label' for = 'name'>Name</label> 
 					<input type = 'text' name = 'name' id = 'name' class = 'form-control' placeholder = 'Enter your name' required> 
 				</div> 
@@ -93,6 +102,23 @@
 				<div class = 'form-group'> 
 					<label for = 'diaa'>Please tell us the date you would prefer the courses:</label> 
 					<input type = 'date' id = 'diaa' name = 'diaa' min = '2021-03-20' max = '2021-03-20'>
+				</div>
+				<div class = 'form-rate'> 
+					<label for = 'nota'>Rate this forms!</label> 
+					<input type="range" list="tickmarks" id ='nota' name = 'nota'>
+					<datalist id="tickmarks">
+  					<option value="0" label = '0%'>
+  					<option value="10">
+  					<option value="20">
+  					<option value="30">
+  					<option value="40">
+  					<option value="50" label = '50%'>
+  					<option value="60">
+  					<option value="70">
+  					<option value="80">
+  					<option value="90">
+  					<option value="100" label = '100%'>
+					</datalist>
 				</div>
 				<div class = 'form-group'> 
 					<p>If you have any suggestions or comments, please leave here</p>
