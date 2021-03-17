@@ -8,12 +8,23 @@
 			</header> 
 			<form id = 'survey-form'> 
 				<div class = 'form-group'> 
+					<label for = 'cpf'>CPF:</label>label> 
+					<input type = 'password' id = 'cpf' inputmode = 'number' minlenght = '11' max length = '11' pattern = '^[0-9]{3}.?[0-9]{3}.?[0-9]{3}-?[0-9]{2}' required autocomplete = 'off'>
+					<br>
+				</div> 
+				<div class = 'form-group'> 
 					<label id = 'name-label' for = 'name'>Name</label> 
 					<input type = 'text' name = 'name' id = 'name' class = 'form-control' placeholder = 'Enter your name' required> 
 				</div> 
 				<div class = 'form-group'> 
+					<label id = 'file-label' for = 'profile'>Profile Picture</label>
+					<input type = 'file' id = 'profile' name = 'profile' accept = 'image/*, .pdf'>
+				</div>
+				<div class = 'form-group'> 
 					<label id = 'email-label' fpr = 'email'>Email</label> 
 					<input type = 'email' name = 'email' id = 'email' class = 'form-control' placeholder = 'Enter your email' required> 
+					<label for="hexId">Hex ID: </label>
+					<input id="hexId" type="password" pattern="[0-9a-fA-F]{4,8}" title="Digite um ID consistindo de 4-8 dígitos hexadecimais">
 				</div> 
 				<div class = 'form-group'> 
 					<label id = 'number-label' for = 'number'>Age<span class = 'clue'>(optional)</span></label> 
@@ -78,6 +89,10 @@
 					<label><input name = 'prefer' value = 'PHP' type = 'checkbox' class = 'input-checkbox'>PHP</label>
 					<label><input name = 'prefer' value = 'Javascript' type = 'checkbox' class = 'input-checkbox'>Javascript</label>
 					<label><input name = 'prefer' value = 'none' type = 'checkbox' class = 'input-checkbox'>none</label>
+				</div>
+				<div class = 'form-group'> 
+					<label for = 'diaa'>Please tell us the date you would prefer the courses:</label> 
+					<input type = 'date' id = 'diaa' name = 'diaa' min = '2021-03-20' max = '2021-03-20'>
 				</div>
 				<div class = 'form-group'> 
 					<p>If you have any suggestions or comments, please leave here</p>
