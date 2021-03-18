@@ -26,7 +26,7 @@ This is a project that consists in create a formulary using HTML and CSS. I talk
 </div>
 
 <p align = 'center'> 
-You can enter on [This link] to see the webpage on codepen.io 
+You can enter on this [LINK] to see the webpage on codepen.io 
 </p>
 
-[This link]: https://codepen.io/greatti/pen/LYbvrjX 
+[LINK] : https://codepen.io/greatti/pen/LYbvrjX
