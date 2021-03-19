@@ -25,10 +25,7 @@ This is a project that consists in create a formulary using HTML and CSS. I talk
 - A little CSS.
 </div>
 
-<p align = 'left'> 
-You can click the link below to see the webpage on codepen.io, thanks for reading! And feel free to commit a issue, i would love to improve my code. 
-</p>
+You can click at this [link](https://codepen.io/greatti/pen/LYbvrjX) to see the webpage on codepen.io, thanks for reading! And feel free to commit a issue, i would love to improve my code. 
+
 Brenno G. S.
-<h4 align : 'left'> 
-Link : https://codepen.io/greatti/pen/LYbvrjX
-</h4>
+
