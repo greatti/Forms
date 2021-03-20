@@ -1,3 +1,6 @@
+[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
+[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
+
 <p align = 'center'>
 Hello! 
 This is a project that consists in create a formulary using HTML and CSS. I talked about it a little in my profile README but, basically, i used this project to study more about HTML, because i knew that formularys are one of the things we have the most on internet. 
